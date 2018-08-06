@@ -1,0 +1,7 @@
+mutation uploadFile($file:Upload!)@context (scope: "private"){
+  uploadFile(file:$file){
+    fileUrl
+    mimetype
+    encoding
+  }
+}

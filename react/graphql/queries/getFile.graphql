@@ -1,0 +1,3 @@
+query getFile($path:String!){
+  getFile(path:$path)
+}

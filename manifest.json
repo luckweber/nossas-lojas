@@ -1,0 +1,35 @@
+{
+  "name": "mahogany-nossaslojas",
+  "vendor": "agencian1",
+  "version": "0.1.0",
+  "title": "Mahogany  Nossas Lojas",
+  "description": "Mahogany Nossas  Lojas",
+  "mustUpdateAt": "2019-08-04",
+  "registries": [
+    "smartcheckout"
+  ],
+  "scripts": {
+    "postreleasy": "vtex publish --public"
+  },
+  "builders": {
+    "node": "3.x",
+    "graphql": "1.x",
+    "react": "2.x",
+    "pages": "0.x"
+  },
+  "policies": [
+    {
+      "name": "vtex.file-manager:file-manager-read-write"
+    }
+  ],
+  "dependencies": {
+    "vtex.file-manager": "0.x",
+    "vtex.my-extensions":"0.x",
+    "vtex.styleguide":"5.x",
+    "vtex.admin-graphql": "1.x",
+    "vtex.apps-graphql": "2.x",
+    "vtex.store-graphql": "2.x",
+    "vtex.billing": "0.x",
+    "vtex.admin": "1.x"
+  }
+}

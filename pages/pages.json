@@ -1,0 +1,12 @@
+{
+  "pages": {
+    "admin/mahogany-nossaslojas": {
+      "path": "/admin/mahogany-nossaslojas"
+    }
+  },
+  "extensions": {
+    "admin/mahogany-nossaslojas": {
+      "component": "index"
+    }
+  }
+}
